@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(30, 29, 29);
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+.img-thumbnail.my-2{
+  height: 150px;
+  width: 300px;
+  color: light;
+}
+.container.bg-black{
+  display: flex;
+  color: white;
+  border-radius: 10px;
+
+}
+.text.mx-3{
+  font-size: 15px;;
+}
+.name.my-3{
+  font-size: 12px;
+  text-align: left;
+  text-decoration: solid;
+  text-align: left;
+}
+.d-inline-block.align-text-top{
+  border-radius: 300%;
+}
+.btn.btn-secondary{
+  background-color: rgb(30, 29, 29);
+  border: none;
+  border-color: rgb(30, 29, 29);
+  outline: none;
+}
+.navbar-brand.text-light.mx-5{
+  font-family: serif;
+  font-size: x-large;
+}
+.navbar-brand.text-light.mx-1{
+  font-family: serif;
+  font-size: large;
+  display: inline;
+}
+.navbar-brand.text-light.mx-0{
+  font-size: medium;
+  font-family: Arial;
+  padding: 10px;
+}
+.nav-link.active.text-light{
+  font-size: medium;
+  font-family: Arial;
+  padding: 10px;
+}
+.nav-link.text-light{
+  font-size: medium;
+  font-family: Arial;
+  padding: 10px;
+}
+.btn.btn-secondary.dropdown-toggle.bg-dark{
+  width: 100%;
 }
